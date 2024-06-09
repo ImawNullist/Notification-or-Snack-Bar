@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hello World</title>
   <link href='/style.css' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/4ab926124e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <h1>Hello, world!</h1>
+  <div class="buttons">
+    <button onclick="showToast(successMsg)">Success</button>
+    <button onclick="showToast(errorMsg)">Errorr</button>
+    <button onclick="showToast(invalidMsg)">Invalid</button>
+  </div>
 
-<h2></h2>
+  <div id="toastBox">
 
 
+
+  </div>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>

@@ -1,1 +1,1 @@
-A simple HTML/JS/CSS starter template# Notification-or-Snack-Bar
+This snack bar will be animated with the help for CSS animation. This toast notification will disappear automatically after fixed time.
